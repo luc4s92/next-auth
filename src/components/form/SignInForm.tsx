@@ -43,7 +43,6 @@ const SignInForm = () => {
       redirect: false,
     })
     if(signInData?.error){
-      console.log('es una poronga')
       console.log(signInData.error)
     }else{
       router.push('/admin')
